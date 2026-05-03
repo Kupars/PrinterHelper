@@ -1,0 +1,43 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="112" y1="72" x2="912" y2="952" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF6D8"/>
+      <stop offset="0.48" stop-color="#FFD37C"/>
+      <stop offset="1" stop-color="#F68A39"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="346" y1="194" x2="686" y2="466" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#EEF3F8"/>
+    </linearGradient>
+    <linearGradient id="printerBody" x1="258" y1="324" x2="792" y2="836" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2B3D51"/>
+      <stop offset="1" stop-color="#415E79"/>
+    </linearGradient>
+    <linearGradient id="tray" x1="300" y1="698" x2="726" y2="864" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DCE7F1"/>
+      <stop offset="1" stop-color="#B7C9DB"/>
+    </linearGradient>
+    <filter id="shadow" x="160" y="146" width="704" height="736" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#5E340D" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <rect x="16" y="16" width="992" height="992" rx="248" fill="url(#bg)"/>
+  <circle cx="826" cy="212" r="56" fill="#FFF4D1" fill-opacity="0.78"/>
+  <circle cx="220" cy="812" r="42" fill="#F5B35A" fill-opacity="0.36"/>
+
+  <g filter="url(#shadow)" transform="translate(512 522) scale(1.16) translate(-512 -522)">
+    <path d="M380 210H644C668.301 210 688 229.699 688 254V370H336V254C336 229.699 355.699 210 380 210Z" fill="url(#paper)"/>
+    <path d="M360 312H664C730.274 312 784 365.726 784 432V650C784 674.301 764.301 694 740 694H284C259.699 694 240 674.301 240 650V432C240 365.726 293.726 312 360 312Z" fill="url(#printerBody)"/>
+    <path d="M300 694H724V758C724 804.392 686.392 842 640 842H384C337.608 842 300 804.392 300 758V694Z" fill="url(#tray)"/>
+    <rect x="322" y="408" width="380" height="156" rx="34" fill="#192633"/>
+    <rect x="352" y="246" width="320" height="154" rx="22" fill="url(#paper)"/>
+    <rect x="386" y="282" width="252" height="18" rx="9" fill="#CAD6E2"/>
+    <rect x="386" y="326" width="188" height="18" rx="9" fill="#CAD6E2"/>
+    <path d="M380 728H644C664.987 728 682 745.013 682 766C682 786.987 664.987 804 644 804H380C359.013 804 342 786.987 342 766C342 745.013 359.013 728 380 728Z" fill="#FFFFFF" fill-opacity="0.82"/>
+    <circle cx="664" cy="456" r="21" fill="#7BE0A8"/>
+    <circle cx="610" cy="456" r="14" fill="#7E94A8"/>
+    <path d="M478 488C478 468.118 494.118 452 514 452C533.882 452 550 468.118 550 488V504H576L514 574L452 504H478V488Z" fill="#FFD15B"/>
+    <path d="M550 614C550 633.882 533.882 650 514 650C494.118 650 478 633.882 478 614V598H452L514 528L576 598H550V614Z" fill="#FF9A46"/>
+  </g>
+</svg>
